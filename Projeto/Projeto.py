@@ -17,7 +17,7 @@ if ms < 7:
     mf=(ms+ex)/2;
 
 if ms >= 7:
-    print("Média semestral: ",ms);
+    print("Média Semestral: ",ms);
     print("APROVADO!!");            
 elif mf >= 5:
     print("Média final: ",mf);
