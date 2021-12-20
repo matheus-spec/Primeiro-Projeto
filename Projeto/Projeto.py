@@ -5,7 +5,7 @@ ex=0;
 ms=0;
 
 np1=float(input("Coloque a nota da sua Prova: "));
-np2=float(input("Coloque sua nota da TRABALHO: "));
+np2=float(input("Coloque sua nota do TRABALHO ou Prova: "));
 
 ms=(np1+np2)/2;
 
