@@ -5,7 +5,7 @@ ex=0;
 ms=0;
 
 np1=float(input("Coloque a nota da sua Prova: "));
-np2=float(input("Coloque sua nota da TRABALHO: "));
+np2=float(input("Coloque sua nota do Trabalho: "));
 
 ms=(np1+np2)/2;
 
@@ -17,11 +17,14 @@ if ms < 7:
     mf=(ms+ex)/2;
 
 if ms >= 7:
-    print("Sua media semestral: ",ms);
+    print("Média semestral: ",ms);
     print("APROVADO!!");            
 elif mf >= 5:
-    print("Sua media final: ",mf);
+    print("Média final: ",mf);
     print("APROVADO!!");
 else:
-    print("Sua media final: ",mf);
+    print("Média final: ",mf);
     print("REPROVADO");
+
+
+        
